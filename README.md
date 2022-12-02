@@ -10,4 +10,4 @@ Now replace line 2 in `add/index.ts` with
 
 Run `pnpm tsc` again.
 Observed that all tsc tasks succeed because they use a cached result. Desired behavior is that we would not get a cached result but instead
-all tests would fail. Workaround for this is discussed in [#2855](https://github.com/vercel/turbo/issues/2855)
+subtract type check would fail. Workaround for this is discussed in [#2855](https://github.com/vercel/turbo/issues/2855)
