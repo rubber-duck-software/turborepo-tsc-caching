@@ -8,7 +8,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "sleep 10 && tsc"
   },
   "dependencies": {
     "add": "workspace:add@*"
