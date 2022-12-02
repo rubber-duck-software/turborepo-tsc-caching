@@ -1,0 +1,19 @@
+{
+  "name": "subtract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "types": "index.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "add": "workspace:add@*"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
